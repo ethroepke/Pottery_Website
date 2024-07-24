@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bona Nova SC", serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.row2 h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Bona Nova SC", serif;
+}
+
+.row2 h3 {
+    text-align: center;
+    color: #ff523b;
+    font-size: 18px;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #563434;
+}
+
+.header {
+    background: radial-gradient(#93A5CF, #E4EFE9);
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
+.sales {
+    text-align: center;
+    line-height: 1.25;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sales p {
+    color: #ff523b;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.sales h5 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.section {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.section::after {
+    content: '';
+    background: #ff523b;
+    width: 240px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h2 {
+    color: #555;
+    font-weight: normal;
+}
+
+.categories {
+    margin: 70px 0;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.col-4 {
+    flex-basis: 23%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    background-color: #fff;
+    /* White background for product cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    margin: 1%;
+}
+
+.col-4 img {
+    width: 100%;
+    height: auto;
+}
+
+.row .col-4 {
+    margin-bottom: 25px;
+}
+
+.Inspired {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.Inspired::after {
+    content: '';
+    background: #ff523b;
+    width: 75px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 40px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    width: 100%;
+    text-align: center;
+}
+
+.title::after {
+    content: '';
+    background: #ff523b;
+    width: 75px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p {
+    font-size: 14px;
+}
+
+.rating .fa {
+    color: #ff523b;
+}
+
+.rating .far {
+    color: #ff523b;
+}
+
+.rating .fas {
+    color: #ff523b;
+}
+
+.col-4:hover {
+    transform: translateY(-5px);
+}
+
+/* footer */
+
+.footer-container {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .email-list {
+    flex: 1;
+}
+
+.footer .email-list input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.footer .email-list button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer .other-content {
+    flex: 1;
+    text-align: right;
+}
+
+.footer h3 {
+    color: #333;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+.footer ul {
+    color: #fff;
+    margin-left: 60px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.map-container {
+    border: 2px solid black;
+    width: 100%;
+    max-width: 1100px;
+    height: 450px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.map-container-Products {
+    border: 2px solid black;
+    width: 100%;
+    max-width: 1100px;
+    height: 450px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/*-- All Products --*/
+.row-2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select {
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+select:focus {
+    outline: none;
+    ;
+}
+
+.page-btn {
+    margin: 0 auto 80px;
+}
+
+.page-btn span {
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover {
+    background: #ff523b;
+    color: #fff;
+}
+
+
+
+/*--- Media query for menu ---*/
+@media only screen and (max-width: 800px) {
+    nav ul {
+        position: absolute;
+        top: 110px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/*-- media query for less than 600 screen size --*/
+@media only screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-2,
+    .col-3 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .col-4 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .col-2 img {
+        padding: 20px 0;
+    }
+
+    .sales p {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .sales h5 {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .btn {
+        padding: 8px 20px;
+    }
+
+    .map-container {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.product-section {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.section-header h2 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.arrow {
+    font-size: 18px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product-list {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rating i {
+    color: #ff523b;
+}
+
+/* Add this media query to handle smaller screens */
+@media only screen and (max-width: 800px) {
+    .col-4 {
+        flex-basis: 48%;
+        /* Adjust to 2 items per row for medium screens */
+        margin: 1%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .col-4 {
+        flex-basis: 100%;
+        /* Adjust to 1 item per row for small screens */
+        margin: 1%;
+    }
+}
+
+.About h1 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: "Bona Nova SC", serif;
+}
+
+
+
+
+
+.container h1 {
+    text-align: center;
+    color: #555;
+    font-family: "Bona Nova SC", serif;
+}
+
+.container p {
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+    color: #333;
+}
+
+.contact input[type="text"],
+.contact input[type="tel"],
+.contact input[type="email"],
+
+.contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e90ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #0d6efd;
+}
+
+.map-contact {
+    border: 2px solid black;
+    width: 100%;
+    max-width: 1100px;
+    height: 450px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.row .col-2 h1 {
+    color: black;
+}
+
+.row .col-2 p {
+    color: black;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 2;
+    padding: 10px;
+}
+
+.about-text h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.map-about {
+    border: 2px solid black;
+    width: 100%;
+    max-width: 1100px;
+    height: 450px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 45px;
+}
